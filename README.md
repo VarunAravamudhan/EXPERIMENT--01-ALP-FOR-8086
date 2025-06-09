@@ -126,7 +126,48 @@ hlt
 ## Output  
 ![Screenshot 2025-03-07 131959](https://github.com/user-attachments/assets/16c58d75-179d-4328-b9ff-d2793b99d331)
 
+# AND of 8 bit number ALP:
+```
+MOV Al,28H
+MOV Bl,19H
+AND Al,Bl
+RET
+```
+# OUTPUT
 
+![image](https://github.com/user-attachments/assets/91c15f5b-a9fe-4cce-bc4e-d7f01ead1f19)
+
+# OR of 8 bit number ALP: 
+```
+MOV Al,28H
+MOV Bl,19H
+OR Al,Bl
+RET
+```
+# OUTPUT:
+
+![image](https://github.com/user-attachments/assets/a852765f-5218-4e02-bbae-71cd7a2cfb00)
+
+# NOT of 8 bit ALP:
+```
+MOV Al,28H
+NOT Al
+RET
+```
+# OUTPUT:
+
+![image](https://github.com/user-attachments/assets/9b1bbb98-d962-4d94-a09b-4cf0f4fb2f0e)
+
+# XOR of 8 bit ALP:
+```
+MOV Al,28H
+MOV Bl,19H
+XOR Al,Bl
+RET
+```
+# OUTPUT:
+
+![image](https://github.com/user-attachments/assets/3cda2714-d8a6-4c36-bdde-215eed1de3c2)
 ## Result :
  This program is executed and verified successfully.
 
